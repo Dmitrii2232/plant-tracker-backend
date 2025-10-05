@@ -28,7 +28,7 @@ public class DataLoader implements CommandLineRunner {
     
     @Override
     public void run(String... args) throws Exception {
-        // Загрузка фактов о растениях
+        
         plantFactRepository.saveAll(Arrays.asList(
             new PlantFact("Томаты", "Томаты нуждаются в минимум 6-8 часах солнечного света в день", "советы"),
             new PlantFact("Томаты", "Поливайте томаты у корня, избегая попадания воды на листья", "советы"),
@@ -41,7 +41,7 @@ public class DataLoader implements CommandLineRunner {
             new PlantFact("Общие", "Растения могут общаться через химические сигналы", "интересные факты")
         ));
         
-        // Загрузка поставщиков семян
+        
         seedSupplierRepository.saveAll(Arrays.asList(
             new SeedSupplier("Семена Онлайн", "https://semena-online.ru", 
                 "Томаты, Огурцы, Перцы, Баклажаны", "Широкий выбор семян овощных культур"),
@@ -53,7 +53,7 @@ public class DataLoader implements CommandLineRunner {
                 "Редкие сорта, Экзотические растения", "Уникальная коллекция семян")
         ));
 
-        // Тестовые растения
+        
         plantRepository.saveAll(Arrays.asList(
             new Plant("Помидорчик", "Томат Черри", LocalDate.now().minusDays(30), "Первый опыт выращивания томатов"),
             new Plant("Базилик душистый", "Базилик", LocalDate.now().minusDays(15), "Выращиваю на кухонном подоконнике"),
