@@ -1,0 +1,10 @@
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/controller/CareTaskController.java
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/model/CareTask.java
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/model/GrowthRecord.java
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/model/Plant.java
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/model/PlantFact.java
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/model/SeedSupplier.java
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/plant_tracker/PlantTrackerApplication.java
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/repository/CareTaskRepository.java
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/repository/PlantRepository.java
+/Users/dmitriygridasov/My project/plant-tracker/src/main/java/com/planttracker/service/CareTaskService.java

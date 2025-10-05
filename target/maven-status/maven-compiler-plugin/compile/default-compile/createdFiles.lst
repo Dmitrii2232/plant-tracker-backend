@@ -1,0 +1,10 @@
+com/planttracker/model/Plant.class
+com/planttracker/model/PlantFact.class
+com/planttracker/plant_tracker/PlantTrackerApplication.class
+com/planttracker/repository/CareTaskRepository.class
+com/planttracker/controller/CareTaskController.class
+com/planttracker/repository/PlantRepository.class
+com/planttracker/model/GrowthRecord.class
+com/planttracker/model/SeedSupplier.class
+com/planttracker/service/CareTaskService.class
+com/planttracker/model/CareTask.class
