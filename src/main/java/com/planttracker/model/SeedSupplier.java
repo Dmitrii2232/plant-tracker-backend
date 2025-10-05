@@ -14,7 +14,7 @@ public class SeedSupplier {
     private String plantTypes;
     private String description;
     
-    // Конструкторы, геттеры и сеттеры
+    
     public SeedSupplier() {}
     
     public SeedSupplier(String name, String website, String plantTypes, String description) {
