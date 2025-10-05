@@ -14,11 +14,11 @@ public class CareTask {
     @JoinColumn(name = "plant_id")
     private Plant plant;
     
-    private String taskType; // полив, удобрение, обрезка, пересадка
+    private String taskType; 
     private String description;
     private LocalDate dueDate;
     private boolean completed;
-    private Integer priority; // 1-высокий, 2-средний, 3-низкий
+    private Integer priority; 
     
     public CareTask() {}
     
@@ -31,7 +31,7 @@ public class CareTask {
         this.completed = false;
     }
     
-    // Геттеры и сеттеры
+    
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     
