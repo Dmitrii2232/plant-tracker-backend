@@ -17,7 +17,7 @@ public class CorsConfig {
                         .allowedOrigins(
                             "http://localhost:3000",
                             "https://plant-tracker-rho.vercel.app",  // ваш фронтенд
-                            "https://plant-tracker-*.vercel.app"     // все поддомены vercel
+                            "https://plant-tracker-backend-production.up.railway.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH")
                         .allowedHeaders("*")
