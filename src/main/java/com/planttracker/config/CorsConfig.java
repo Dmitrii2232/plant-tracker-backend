@@ -16,7 +16,7 @@ public class CorsConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
                             "http://localhost:3000",
-                            "https://plant-tracker-rho.vercel.app",  // ваш фронтенд
+                            "https://plant-tracker-rho.vercel.app",  
                             "https://plant-tracker-backend-production.up.railway.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH")
