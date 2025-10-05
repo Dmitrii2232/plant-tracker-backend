@@ -16,7 +16,7 @@ public class GrowthRecord {
     private Plant plant;
     
     @NotNull
-    private Double height; // высота в см
+    private Double height; 
     
     private Integer leafCount;
     private String notes;
@@ -25,7 +25,7 @@ public class GrowthRecord {
     @NotNull
     private LocalDateTime recordDate;
     
-    // Конструкторы, геттеры и сеттеры
+    
     public GrowthRecord() {}
     
     public GrowthRecord(Plant plant, Double height, Integer leafCount, String notes, LocalDateTime recordDate) {
@@ -36,7 +36,7 @@ public class GrowthRecord {
         this.recordDate = recordDate;
     }
     
-    // Геттеры и сеттеры
+    
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     
