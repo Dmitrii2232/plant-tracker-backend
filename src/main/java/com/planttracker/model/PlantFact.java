@@ -11,9 +11,9 @@ public class PlantFact {
     
     private String plantType;
     private String fact;
-    private String category; // выращивание, интересные факты, советы
+    private String category; 
     
-    // Конструкторы, геттеры и сеттеры
+    
     public PlantFact() {}
     
     public PlantFact(String plantType, String fact, String category) {
